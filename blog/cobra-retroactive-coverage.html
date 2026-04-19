@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Can You Elect COBRA Retroactively? Yes, Here's How It Works | COBRAClarity</title>
+  <meta name="description" content="COBRA is retroactive — you have 60 days to elect, and coverage covers any care received during that window. Here's how the retroactive election works and its tradeoffs." />
+  <meta name="keywords" content="cobra retroactive, elect cobra retroactively, cobra retroactive coverage, how does cobra work retroactively, cobra 60 days retroactive" />
+  <link rel="canonical" href="https://cobraclarity.com/blog/cobra-retroactive-coverage.html" />
+  <meta property="og:title" content="Can You Elect COBRA Retroactively? Yes, Here's How It Works" />
+  <meta property="og:description" content="COBRA is retroactive — you have 60 days to elect, and coverage covers any care received during that window. Here's how the retroactive election works and its tradeoffs." />
+  <meta property="og:url" content="https://cobraclarity.com/blog/cobra-retroactive-coverage.html" />
+  <meta property="og:type" content="article" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#4c616c", "primary-dim": "#40555f", "primary-container": "#cfe6f2",
+            "secondary-container": "#cde6f4", "surface-container-low": "#e7f6ff",
+            "surface-container-lowest": "#ffffff", "surface": "#f4faff",
+            "on-surface": "#0a3747", "on-surface-variant": "#3e6475",
+            "on-primary": "#f0f9ff", "outline": "#5a8092", "outline-variant": "#91b8cb",
+            "accent-warm": "#b8865b", "accent-warm-soft": "#f5e8d8",
+          },
+          fontFamily: { body: ["Manrope"] },
+          borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+        },
+      },
+    };
+  </script>
+  <style>
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+    body { font-family: 'Manrope', system-ui, sans-serif; }
+    .prose p { margin: 0 0 1.25rem; line-height: 1.75; color: #3e6475; font-size: 1.0625rem; }
+    .prose h2 { margin: 2.5rem 0 1rem; font-size: 1.75rem; font-weight: 700; color: #0a3747; letter-spacing: -0.02em; line-height: 1.2; }
+    .prose h3 { margin: 2rem 0 0.75rem; font-size: 1.25rem; font-weight: 700; color: #0a3747; letter-spacing: -0.01em; }
+    .prose ul { margin: 0 0 1.5rem 1.5rem; padding: 0; }
+    .prose ul li { margin-bottom: 0.625rem; line-height: 1.7; color: #3e6475; font-size: 1.0625rem; }
+    .prose strong { color: #0a3747; font-weight: 700; }
+    .prose a { color: #4c616c; text-decoration: underline; }
+  </style>
+</head>
+<body class="bg-surface text-on-surface antialiased">
+
+  <nav class="sticky top-0 w-full z-50 bg-[#f4faff]/70 backdrop-blur-md shadow-sm shadow-[#0a3747]/05">
+    <div class="flex justify-between items-center px-6 md:px-8 py-4 max-w-7xl mx-auto">
+      <a href="/" class="flex items-center gap-3">
+        <span class="material-symbols-outlined text-primary">visibility</span>
+        <span class="text-xl font-bold text-on-surface tracking-tighter">COBRAClarity</span>
+      </a>
+      <div class="hidden md:flex gap-8 items-center">
+        <a class="text-on-surface-variant font-medium hover:text-on-surface transition-all" href="/#how">How it Works</a>
+        <a class="text-on-surface-variant font-medium hover:text-on-surface transition-all" href="/#pricing">Pricing</a>
+        <a class="text-on-surface-variant font-medium hover:text-on-surface transition-all" href="/blog/">Blog</a>
+        <a href="/#pricing" class="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-semibold hover:bg-primary-dim transition-all">Analyze My Notice</a>
+      </div>
+      <a href="/#pricing" class="md:hidden bg-primary text-on-primary px-4 py-2 rounded-xl text-sm font-semibold">Analyze</a>
+    </div>
+  </nav>
+
+  <main class="max-w-3xl mx-auto px-6 md:px-8 py-16 md:py-24">
+    <div class="mb-8">
+      <a href="/blog/" class="text-sm text-outline hover:text-primary inline-flex items-center gap-1">
+        <span class="material-symbols-outlined text-base" style="font-size:18px;">arrow_back</span> All posts
+      </a>
+    </div>
+    <header class="mb-12">
+      <div class="text-xs uppercase tracking-[0.2em] text-outline font-semibold mb-4">How It Works</div>
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-on-surface leading-[1.1] mb-6">
+        Can You Elect COBRA Retroactively? Yes, Here's How It Works
+      </h1>
+      <p class="text-lg text-on-surface-variant leading-relaxed">
+        The most valuable feature of COBRA is also the one almost nobody realizes they have.
+      </p>
+    </header>
+
+    <article class="prose">
+      <p>Most people reading their COBRA Election Notice assume they need to decide now: pay the premium immediately, or go without coverage. That's not actually how it works.</p>
+
+      <p>COBRA has a built-in feature that most people miss: it is <strong>retroactive to the day after your employer coverage ended</strong>, as long as you elect within the 60-day window. This single detail changes how you should think about the decision.</p>
+
+      <h2>How Retroactive COBRA Works</h2>
+      <p>The 60-day election period is not just a deadline — it's a <em>window</em>. During that window, you effectively have optional coverage:</p>
+      <ul>
+        <li><strong>If nothing medical happens during those 60 days:</strong> you can walk away from COBRA and pay nothing.</li>
+        <li><strong>If something medical does happen:</strong> you can elect COBRA retroactively, pay all the back premiums from when your employer coverage ended, and the plan will cover the care you received during the gap.</li>
+      </ul>
+
+      <p>This is unique. Most insurance doesn't work this way. The ACA marketplace, for example, generally does not allow retroactive coverage of care received before the plan's effective date.</p>
+
+      <h2>A Real-World Example</h2>
+      <p>Your employer coverage ends May 31. Your COBRA notice arrives June 5. You have until August 4 to elect.</p>
+
+      <p><strong>Scenario A: Nothing happens.</strong> You feel healthy, don't see a doctor, don't fill any prescriptions, and by August 4 nothing has come up. You do not elect. You paid zero dollars in premiums. You had no coverage during the 60 days, but nothing happened, so no harm done.</p>
+
+      <p><strong>Scenario B: Something happens.</strong> On July 20, you break your ankle. Emergency room visit, X-rays, maybe surgery. The bills total $12,000. You elect COBRA on July 22. You pay:</p>
+      <ul>
+        <li>June premium (retroactive)</li>
+        <li>July premium</li>
+        <li>Possibly August premium in advance</li>
+      </ul>
+
+      <p>At a $1,800/month family premium, that's $5,400 upfront. But the $12,000 in medical bills now run through your plan, subject to your normal cost-sharing. If your plan's out-of-pocket maximum is $8,000 and you'd already been progressing toward it, the math works overwhelmingly in your favor.</p>
+
+      <h2>Why This Matters for Decision-Making</h2>
+      <p>The retroactive feature means you don't have to make the COBRA decision on day 1. You can <strong>defer the decision</strong> while you:</p>
+      <ul>
+        <li>Comparison-shop marketplace plans</li>
+        <li>Wait for a job offer that would come with coverage</li>
+        <li>See whether any medical needs come up that would change the math</li>
+        <li>Consult with a benefits advisor or navigator</li>
+      </ul>
+
+      <p>If you lock in coverage elsewhere (new job, marketplace plan, spouse's plan) before the 60-day window closes, you can simply let COBRA lapse and pay nothing.</p>
+
+      <div class="my-10 p-8 bg-surface-container-low rounded-[2rem] border border-outline-variant/20">
+        <div class="text-sm font-bold text-outline uppercase tracking-widest mb-3">Buying yourself time</div>
+        <div class="text-xl font-bold text-on-surface mb-3">Know your real deadline so you can wait confidently.</div>
+        <p class="text-on-surface-variant mb-5 text-base">Upload your notice and we'll tell you the exact date you have to decide by — plus what you're actually choosing between. $97 one-time.</p>
+        <a href="/#pricing" class="inline-flex items-center gap-2 bg-primary text-on-primary px-6 py-3 rounded-xl font-bold hover:bg-primary-dim transition-colors">
+          Analyze My Notice — $97
+          <span class="material-symbols-outlined text-base">arrow_forward</span>
+        </a>
+      </div>
+
+      <h2>The 45-Day Payment Window</h2>
+      <p>Here's the second retroactive mechanic most people miss. After you submit your election form, you have <strong>45 days to make the initial premium payment</strong>.</p>
+
+      <p>The clock goes:</p>
+      <ul>
+        <li>Day 0: Your notice is dated.</li>
+        <li>Day 1-60: Your election window. You can submit your election form any time in this period.</li>
+        <li>Day X (your election date): 45-day payment clock starts.</li>
+        <li>Day X + 45: Initial payment must be received.</li>
+      </ul>
+
+      <p>So in theory, you can elect COBRA on day 60 and not have to pay until roughly day 105 — roughly 3.5 months after your coverage ended. This is useful to know for cash-flow purposes, but be careful: the longer you wait to pay, the more back premium stacks up.</p>
+
+      <h2>When Retroactive COBRA Actually Gets Used</h2>
+      <p>The retroactive feature is most valuable in three scenarios:</p>
+      <ul>
+        <li><strong>Unexpected medical emergencies.</strong> Broken bones, appendicitis, emergency surgery, urgent specialist visits.</li>
+        <li><strong>Planned procedures during the gap.</strong> Someone knew they'd need a procedure but was waiting for timing or a referral.</li>
+        <li><strong>New diagnoses.</strong> Something comes up in a routine visit that requires follow-up care.</li>
+      </ul>
+
+      <p>The feature is least valuable if you're healthy, have a short gap between jobs, and have already lined up alternative coverage.</p>
+
+      <h2>Limits and Caveats</h2>
+      <p>A few things to know before you rely on this strategy:</p>
+      <ul>
+        <li><strong>You have to elect within 60 days.</strong> The retroactive window is bounded by this. Miss the deadline and retroactivity is moot.</li>
+        <li><strong>You still owe all back premiums.</strong> Retroactive coverage isn't free — you pay for every month from the day after your employer coverage ended.</li>
+        <li><strong>Providers may require upfront payment if you're uninsured.</strong> During the gap, hospitals and clinics may ask for cash payment since you technically don't have coverage yet. You'd pay, elect COBRA, and then submit claims for reimbursement.</li>
+        <li><strong>Not all providers participate in claims reimbursement.</strong> If the care was received from an out-of-network provider, reimbursement may be limited.</li>
+      </ul>
+
+      <h2>The Bottom Line</h2>
+      <ul>
+        <li>You have 60 days to decide whether to elect COBRA</li>
+        <li>Coverage is retroactive to the day after your employer coverage ended — as long as you elect within the window</li>
+        <li>If nothing happens during the gap, you can walk away and pay zero</li>
+        <li>If something does happen, you can elect retroactively and have the care covered</li>
+        <li>After election, you have 45 more days to make the initial payment</li>
+        <li>Back premiums add up — a day-60 election can mean paying two to three months of premium at once</li>
+      </ul>
+
+      <p>The retroactive feature is a genuine advantage of COBRA that most people never use because they don't know it's there. Read your notice, know your deadline, and understand that you're not locked in until you decide you are.</p>
+
+      <div class="mt-16 p-6 bg-accent-warm-soft/50 border border-accent-warm/20 rounded-2xl">
+        <div class="flex items-start gap-3">
+          <span class="material-symbols-outlined text-accent-warm mt-1">info</span>
+          <div class="text-sm text-on-surface-variant leading-relaxed">
+            <strong class="text-on-surface">Important:</strong> This article is an educational document explainer from COBRAClarity. It is not legal advice, insurance advice, or a substitute for a licensed attorney, insurance broker, or healthcare navigator. For advice specific to your situation, visit <a href="https://www.healthcare.gov/find-assistance/" target="_blank" rel="noopener">healthcare.gov/find-assistance</a> for a free navigator in your state.
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="w-full py-16 px-6 md:px-8 bg-[#e7f6ff] text-sm leading-relaxed mt-20">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div class="md:col-span-2">
+        <div class="flex items-center gap-2 font-bold text-on-surface text-lg mb-4">
+          <span class="material-symbols-outlined">visibility</span> COBRAClarity
+        </div>
+        <p class="text-primary max-w-sm mb-3">Distilling chaos into calm — one document at a time.</p>
+        <p class="text-xs text-outline">© 2026 COBRAClarity. A Brahka Labs property.</p>
+      </div>
+      <div>
+        <div class="text-on-surface font-bold mb-4">Product</div>
+        <div class="flex flex-col gap-2">
+          <a href="/#how" class="text-on-surface-variant hover:text-on-surface">How it Works</a>
+          <a href="/#what-you-get" class="text-on-surface-variant hover:text-on-surface">What You Get</a>
+          <a href="/#pricing" class="text-on-surface-variant hover:text-on-surface">Pricing</a>
+          <a href="/#faq" class="text-on-surface-variant hover:text-on-surface">FAQ</a>
+        </div>
+      </div>
+      <div>
+        <div class="text-on-surface font-bold mb-4">Related</div>
+        <div class="flex flex-col gap-2">
+          <a href="https://severanceclarity.com" class="text-on-surface-variant hover:text-on-surface">SeveranceClarity</a>
+          <a href="mailto:hello@cobraclarity.com" class="text-on-surface-variant hover:text-on-surface">Contact</a>
+          <a href="/blog/" class="text-on-surface-variant hover:text-on-surface">Blog</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
